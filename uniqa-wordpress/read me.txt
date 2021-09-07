@@ -1,0 +1,8 @@
+Wordpress verzia dvoch sliderov.
+
+Prvı sa automatickı mení po piatich sekundách a po kliknutí na bodku ved¾a slidera sa nastaví na danı slider.
+Druhı slider sa po kliknutí na èíslo nastaví na danı text/obrázok.
+
+
+Celı prieèinok si treba vloi do prieèinku wordpress- wp-content- themes a wordpress prieèinok si da do prieèinku servera.
+Následne si spusti v priehladaèi localhost.
