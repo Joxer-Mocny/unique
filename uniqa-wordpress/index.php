@@ -16,10 +16,10 @@
         <?php if (have_posts()): ?>
           <?php while ( have_posts()) :  the_post()?>
           <div class="mySlides fade"> <article> <p><?php the_content()?></p>
-        <button onClick="location.href=''" type="button">
+        <button onClick="location.href='#'" type="button">
           Call to action 
         </button>
-        <button onclick="location.href=''" type="button">
+        <button onclick="location.href='#'" type="button">
           Read More
         </button>
         </article>
