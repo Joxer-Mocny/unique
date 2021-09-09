@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    
-    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
-
-    <title>Slider </title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>" />
-  </head>
-  <body >
+<?php get_header() ?>
  
     <div class="slideshow-container">
       <!--Slides-->
@@ -26,11 +16,7 @@
         </div>
         <?php endwhile?>
         <?php endif ?>
-      
     
-      
-     
-
       <!-- The dots -->
       <div class="dots">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -39,10 +25,22 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
       </div>
-      
+      <?php if (have_posts()): ?>
+          <?php while ( have_posts()) :  the_post()?>
+          <div class="Lorem"><p>
+            <article><?php the_title()?></article>
+          </p></div>
+          <div class="LoremText">
+        <p>
+          <article><?php the_content()?></article>
+        </p>
+        </div>
+        </div>
+      <?php endwhile?>
+        <?php endif ?>
+    </div>
       <div class="numbersShow-container">
       <!--Slides-->
-
       <?php if (have_posts()): ?>
           <?php while ( have_posts()) :  the_post()?>
       <div class="myNumSlides fade">
@@ -53,7 +51,6 @@
         </div>
       <?php endwhile?>
         <?php endif ?>
-
     </div>
 
     <!-- The numbers -->
@@ -65,6 +62,53 @@
       <span class="circled-number" onclick="currentNumber(5)">5</span>
       <span class="circled-number" onclick="currentNumber(6)">6</span>
       <span class="circled-number" onclick="currentNumber(7)">7</span>
+    </div>
+
+    <div class="AnotherMenu">
+      <p>Aliquam Luctus</p>
+      <ul>
+        <li><div class="bubble">
+          <img src="images/people.svg" alt="" height="25px" /></div>
+          <p>SEDSAPIEN NULLA</p>
+          <a href="#">Read more</a>
+        </li>
+        <li>
+          <div class="bubble">
+          <img src="images/admin.svg" alt="" height="25px" /></div>
+          <p>OASDI ADSDAWF</p>
+          <a href="#">Read more</a>
+        </li>
+        <li>
+          <div class="bubble">
+          <img src="images/calendar.svg" alt="" height="25px" /></div>
+          <p>ASDASDA kPKOPJOPJN</p>
+          <a href="#">Read more</a>
+        </li>
+      </ul>
+      <div class="bubble">
+          <img src="images/calendar.svg" alt="" height="25px" /></div>
+          <p>ASDASDA kPKOPJOPJN</p>
+          <a href="#">Read more</a>
+        </li>
+      </ul>
+      <?php if (have_posts()): ?>
+          <?php while ( have_posts()) :  the_post()?>
+      <div class="someBlueText">
+      <article><?php the_content()?></article>
+      </div>
+      <?php endwhile?>
+        <?php endif ?>
+    </div>
+    </div>
+    <div class="blog">
+      <h1>Blog</h1>
+      <div class="photo"><a href="#"><div class="plus"><img src="images/plus.svg" alt="" height="25px" /></div><img src="images/seaSide.jpg" alt="" width="400px"/>
+      <p>asiduancaiji jopjopj</p></a>
+      <a href="#"><div class="plus"><img src="images/plus.svg" alt="" height="25px" /></div><img src="images/lightHouse.jpg" alt="" width="400px"/>
+      <p>asoida opaiop opiopka</p></a>
+      <a href="#"><div class="plus"><img src="images/plus.svg" alt="" height="25px" /></div><img src="images/house.jpg" alt="" width="400px"/> 
+      <p>oiuoi oiujoiu oilknl</p></a></div>
+      
     </div>
 
      <!-- Script for the slider -->
@@ -139,6 +183,5 @@
     </script>
 
   </body>
-</html>
-
+  <?php get_footer() ?>
       

@@ -4,9 +4,9 @@ html {
   margin: 0 auto;
 }
 body {
-  background-color: #212f3c;
+  background-color: white;
   font-family: "Courier New", Courier, monospace;
-  color: #bbb;
+  color: white;
   font-weight: bold;
   font-size: 2em;
   background-size: cover;
@@ -16,7 +16,7 @@ body {
 
 body h1 a {
   text-decoration: none;
-  color: #bbb;
+  color: white;
 }
 
 body h1 a:hover {
@@ -26,19 +26,22 @@ body h1 a:hover {
 .slideshow-container {
   display: flex;
   top: 10%;
-  left: 50%;
-  transform: translate(40%, 50%);
+  background-color: #212f3c;
+  margin: 1% -45%;
+  justify-content: center;
+  padding: 13% 3%;
+  transform: translate(42%, 35%);
   width: 100%;
 }
 .dots {
-  margin: 0% 0% 1% 8%;
+  margin: 4% -7% 0% 30%;
 }
 .dot {
   cursor: pointer;
   height: 4px;
   width: 4px;
   margin: 15px 8px 8px 8px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: block;
   transition: background-color 0.6s ease;
@@ -48,13 +51,14 @@ body h1 a:hover {
 .dot:hover {
   background-color: #b93535;
 }
+
 button {
   cursor: pointer;
   background-color: #212f3c;
-  border: solid 1px #bbb;
+  border: solid 1px white;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  color: #bbb;
+  color: white;
   width: 165px;
   height: 25px;
 }
@@ -70,11 +74,13 @@ button:hover {
 
 .numbersShow-container {
   display: flex;
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, 225%);
-  right: auto;
+  top: 10%;
+  margin: 1% -45%;
+  justify-content: center;
+  padding: 5%;
+  transform: translate(36%, 145%);
   width: 100%;
+  color: #212f3c;
 }
 
 .myNumSlides {
@@ -83,28 +89,30 @@ button:hover {
 .circle {
   display: flex;
   top: 50%;
-  left: auto;
-  transform: translate(15%, 400%);
-  right: auto;
+  margin: 1% -45%;
+  justify-content: center;
+  padding: 5%;
+  transform: translate(40%, 75%);
+  width: 100%;
 }
 
 .someText {
   font-family: "Courier New", Courier, monospace;
-  color: #bbb;
+  color: #212f3c;
   font-weight: bold;
   font-size: 0.5em;
   display: flex;
   top: 50%;
   left: 50%;
-  transform: translate(0%, 300%);
+  transform: translate(0%, 550%);
   justify-content: center;
   right: auto;
 }
 .circled-number {
   cursor: pointer;
   background-color: #212f3c;
-  color: #bbb;
-  border: 2px solid #bbb;
+  color: white;
+  border: 2px solid white;
   border-radius: 50%;
   font-size: 1rem;
   display: flex;
@@ -141,6 +149,217 @@ button:hover {
     opacity: 1;
   }
 }
+nav {
+  margin: 0;
+  margin-left: auto;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 0.5em;
+  background-size: cover;
+}
+nav img {
+  height: 2em;
+  margin: 3% 5%;
+}
+nav ul {
+  margin: -5%;
+  padding-inline-start: 46%;
+  padding-bottom: 4%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #212f3c;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  scroll-margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+nav ul li a:hover {
+  color: red;
+}
+.Lorem {
+  transform: translate(25%, 570%);
+  justify-content: center;
+  color: #212f3c;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 1em;
+}
+.LoremText {
+  display: table-cell;
+  top: 10%;
+  margin: 1% -45%;
+  justify-content: center;
+  padding: 5%;
+  transform: translate(20%, 116%);
+  width: 100%;
+  color: #212f3c;
+  padding-right: 40%;
+  padding-top: 3%;
+  font-size: 0.5em;
+}
+.AnotherMenu {
+  display: flex;
+  top: 10%;
+  background-color: #212f3c;
+  margin: 1% -45%;
+  justify-content: center;
+  padding: 0% 3%;
+  transform: translate(42%, 78%);
+  width: 100%;
+}
+.AnotherMenu p {
+  margin: 1% 0%;
+  font-weight: lighter;
+}
+.AnotherMenu ul li p {
+  font-size: 0.5em;
+  margin: 0% -143%;
+  transform: translate(-1px, 20px);
+  color: #3c71a3;
+}
+.AnotherMenu ul li a {
+  font-size: 0.3em;
+  color: white;
+  text-decoration: none;
+  margin: 0% -142%;
+}
+.bubble {
+  background-color: white;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50% 50% 46% 0%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  margin: 15% 0% -32% -185%;
+}
+
+.someBlueText {
+  display: flex;
+  top: 10%;
+  background-color: #3c71a3;
+
+  justify-content: center;
+  padding: 7% 1%;
+  transform: translate(16.5%, 0%);
+  width: 46%;
+  height: 100%;
+}
+
+.blog h1{
+  transform: translate(708px, 186px);
+    color: #212f3c;
+}
+.photo {
+  display: inline-flex;
+  transform: translate(7%, 25%);
+}
+.photo a {
+  cursor: poin;
+  text-decoration: none;
+  color: #212f3c;
+  padding: 1%;
+}
+.photo a img:hover {
+  opacity: 0.5;
+  background-color: #b93535;
+}
+.photo a img {
+  padding: 0% 16%;
+}
+.photo a .plus {
+  cursor: pointer;
+  background-color: #b93535;
+  color: white;
+  border: 2px solid #b93535;
+  border-radius: 50%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  margin: -5% 8% 1% 106%;
+  transform: translate(-10px, 426px);
+}
+
+.photo a p {
+  font-size: 0.5em;
+  transform: translate(144px, 12px);
+}
+.photo a p:hover {
+  color: #b93535;
+}
+footer {
+  transform: translate(0%, 90%);
+}
+footer nav {
+  margin: 0;
+  margin-left: auto;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 0.5em;
+  background-size: cover;
+}
+footer nav img {
+  height: 2em;
+  margin: -3% 5%;
+}
+footer nav ul {
+  margin: -6%;
+  padding-inline-start: 35%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: #212f3c;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  scroll-margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+footer nav ul li a:hover {
+  color: red;
+}
+.contact {
+  padding: 2%;
+  width: 58%;
+  transform: translate(73%, -44%);
+  color: white;
+  background-color: rgb(73, 73, 73);
+}
+.contact ul li {
+  padding: 1%;
+}
+
+.contact ul li img {
+  transform: translate(-45px, 32px);
+}
+.copyright {
+  padding: 3.5%;
+  transform: translate(-1%, 55.5%);
+  color: white;
+  background-color: rgb(90, 116, 50);
+}
 @media screen and (max-width: 1080px) {
   html {
     height: 100%;
@@ -148,9 +367,9 @@ button:hover {
     margin: 0 auto;
   }
   body {
-    background-color: #212f3c;
+    background-color: white;
     font-family: "Courier New", Courier, monospace;
-    color: #bbb;
+    color: white;
     font-weight: bold;
     font-size: 2em;
     background-size: cover;
@@ -161,7 +380,7 @@ button:hover {
 
   body h1 a {
     text-decoration: none;
-    color: #bbb;
+    color: white;
   }
 
   body h1 a:hover {
@@ -171,8 +390,9 @@ button:hover {
   .slideshow-container {
     display: flex;
     top: 10%;
+    background-color: #212f3c;
     left: 50%;
-    transform: translate(30%, 50%);
+    transform: translate(35%, 50%);
     width: 100%;
   }
   .dots {
@@ -183,7 +403,7 @@ button:hover {
     height: 4px;
     width: 4px;
     margin: 15px 8px 8px 8px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
     display: block;
     transition: background-color 0.6s ease;
@@ -196,10 +416,10 @@ button:hover {
   button {
     cursor: pointer;
     background-color: #212f3c;
-    border: solid 1px #bbb;
+    border: solid 1px white;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    color: #bbb;
+    color: white;
     width: 165px;
     height: 25px;
   }
@@ -217,7 +437,7 @@ button:hover {
     display: flex;
     top: 50%;
     left: 50%;
-    transform: translate(48%, 225%);
+    transform: translate(40%, 94%);
     right: auto;
     width: 100%;
   }
@@ -229,27 +449,27 @@ button:hover {
     display: flex;
     top: 50%;
     left: auto;
-    transform: translate(9%, 400%);
+    transform: translate(38%, 29%);
     right: auto;
   }
 
   .someText {
     font-family: "Courier New", Courier, monospace;
-    color: #bbb;
+    color: #212f3c;
     font-weight: bold;
     font-size: 0.5em;
     display: flex;
     top: 50%;
     left: 50%;
-    transform: translate(0%, 300%);
+    transform: translate(0%, 550%);
     justify-content: center;
     right: auto;
   }
   .circled-number {
     cursor: pointer;
     background-color: #212f3c;
-    color: #bbb;
-    border: 2px solid #bbb;
+    color: white;
+    border: 2px solid white;
     border-radius: 50%;
     font-size: 1rem;
     display: flex;
@@ -286,6 +506,222 @@ button:hover {
       opacity: 1;
     }
   }
+
+  nav {
+    margin: 0;
+    margin-left: auto;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 0.5em;
+    background-size: cover;
+  }
+  nav img {
+    height: 2em;
+    margin: 3% 5%;
+  }
+  nav ul {
+    margin: -5%;
+    padding-inline-start: 35%;
+    padding-bottom: 4%;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #212f3c;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 25px;
+  }
+  nav ul li a:hover {
+    color: red;
+  }
+  .Lorem {
+    transform: translate(25%, 570%);
+    justify-content: center;
+    color: #212f3c;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    font-size: 1em;
+  }
+  .LoremText {
+    display: table-cell;
+    top: 10%;
+    margin: 1% -45%;
+    justify-content: center;
+    padding: 5%;
+    transform: translate(20%, 116%);
+    width: 100%;
+    color: #212f3c;
+    padding-right: 40%;
+    padding-top: 3%;
+    font-size: 0.5em;
+  }
+  .AnotherMenu {
+    display: flex;
+    top: 10%;
+    background-color: #212f3c;
+    margin: 1% -45%;
+    justify-content: center;
+    padding: 0% 3%;
+    transform: translate(42%, 78%);
+    width: 100%;
+  }
+  .AnotherMenu p {
+    margin: 1% 0%;
+    font-weight: lighter;
+  }
+  .AnotherMenu ul li{
+    list-style: none 
+  }
+  .AnotherMenu ul li p {
+    font-size: 0.5em;
+    margin: 0% -143%;
+    transform: translate(-1px, 20px);
+    color: #3c71a3;
+  }
+  .AnotherMenu ul li a {
+    font-size: 0.3em;
+    color: white;
+    text-decoration: none;
+    margin: 0% -142%;
+  }
+  .bubble {
+    background-color: white;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50% 50% 46% 0%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    margin: 15% 0% -32% -185%;
+  }
+
+  .someBlueText {
+    display: flex;
+    top: 10%;
+    background-color: #3c71a3;
+
+    justify-content: center;
+    padding: 7% 1%;
+    transform: translate(4.5%, 0%);
+    width: 46%;
+    height: 100%;
+  }
+
+  .blog h1{
+    transform: translate(460px, 205px);
+    color: #212f3c;
+  }
+  .photo {
+    display: inline-flex;
+    transform: translate(1%, 16%);
+  }
+  .photo a {
+    cursor: poin;
+    text-decoration: none;
+    color: #212f3c;
+    padding: 1%;
+  }
+  .photo a img:hover {
+    opacity: 0.5;
+    background-color: #b93535;
+  }
+  .photo a img {
+    padding: 35% 16%;
+    width: 300px;
+  }
+  .photo a .plus {
+    cursor: pointer;
+    background-color: #b93535;
+    color: white;
+    border: 2px solid #b93535;
+    border-radius: 50%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    margin: -5% 8% 1% 106%;
+    transform: translate(-20px, 422px);
+  }
+
+  .photo a p {
+    font-size: 0.5em;
+    transform: translate(144px, 12px);
+  }
+  .photo a p:hover {
+    color: #b93535;
+  }
+  footer {
+    transform: translate(0%, 90%);
+  }
+  footer nav {
+    margin: 0;
+    margin-left: auto;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 0.5em;
+    background-size: cover;
+  }
+  footer nav img {
+    height: 1em;
+    margin: -1% 6%;
+  }
+  footer nav ul {
+    margin: -6%;
+    padding-inline-start: 35%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+  }
+
+  footer nav ul li {
+    display: inline-block;
+  }
+  footer nav ul li a {
+    text-decoration: none;
+    color: #212f3c;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 21px;
+  }
+  footer nav ul li a:hover {
+    color: red;
+  }
+  .contact {
+    padding: 0.4%;
+    width: 50%;
+    transform: translate(90%, -44%);
+    color: white;
+    background-color: rgb(73, 73, 73);
+  }
+  .contact ul li {
+    padding: 1%;
+  }
+
+  .contact ul li img {
+    transform: translate(-45px, 32px);
+  }
+  .copyright {
+    padding: 3.5%;
+    transform: translate(-1%, 55.5%);
+    color: white;
+    background-color: rgb(90, 116, 50);
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -294,9 +730,9 @@ button:hover {
     margin: 0 auto;
   }
   body {
-    background-color: #212f3c;
+    background-color: white;
     font-family: "Courier New", Courier, monospace;
-    color: #bbb;
+    color: white;
     font-weight: bold;
     font-size: 2em;
     background-size: cover;
@@ -307,7 +743,7 @@ button:hover {
 
   body h1 a {
     text-decoration: none;
-    color: #bbb;
+    color: white;
   }
 
   body h1 a:hover {
@@ -317,6 +753,7 @@ button:hover {
   .slideshow-container {
     display: flex;
     top: 10%;
+    background-color: #212f3c;
     left: 50%;
     transform: translate(30%, 50%);
     width: 100%;
@@ -329,7 +766,7 @@ button:hover {
     height: 4px;
     width: 4px;
     margin: 15px 8px 8px 8px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
     display: block;
     transition: background-color 0.6s ease;
@@ -342,10 +779,10 @@ button:hover {
   button {
     cursor: pointer;
     background-color: #212f3c;
-    border: solid 1px #bbb;
+    border: solid 1px white;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    color: #bbb;
+    color: white;
     width: 165px;
     height: 25px;
   }
@@ -363,7 +800,7 @@ button:hover {
     display: flex;
     top: 50%;
     left: 50%;
-    transform: translate(48%, 225%);
+    transform: translate(40%, 170%);
     right: auto;
     width: 100%;
   }
@@ -375,27 +812,27 @@ button:hover {
     display: flex;
     top: 50%;
     left: auto;
-    transform: translate(21%, 400%);
+    transform: translate(39%, 127%);
     right: auto;
   }
 
   .someText {
     font-family: "Courier New", Courier, monospace;
-    color: #bbb;
+    color: #212f3c;
     font-weight: bold;
     font-size: 0.5em;
     display: flex;
     top: 50%;
     left: 50%;
-    transform: translate(0%, 300%);
+    transform: translate(0%, 550%);
     justify-content: center;
     right: auto;
   }
   .circled-number {
     cursor: pointer;
     background-color: #212f3c;
-    color: #bbb;
-    border: 2px solid #bbb;
+    color: white;
+    border: 2px solid white;
     border-radius: 50%;
     font-size: 1rem;
     display: flex;
@@ -431,5 +868,214 @@ button:hover {
     to {
       opacity: 1;
     }
+  }
+
+  nav {
+    margin: 0;
+    margin-left: auto;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 0.5em;
+    background-size: cover;
+  }
+  nav img {
+    height: 1em;
+    margin: 2% 3%;
+  }
+  nav ul {
+    margin: -5%;
+    padding-inline-start: 28%;
+    padding-bottom: 0%;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #212f3c;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 19px;
+    font-size: 0.7em;
+  }
+  nav ul li a:hover {
+    color: red;
+  }
+  .Lorem {
+    transform: translate(13%, 570%);
+    justify-content: center;
+    color: #212f3c;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    font-size: 1em;
+  }
+  .LoremText {
+    display: table-cell;
+    top: 10%;
+    margin: 1% -45%;
+    justify-content: center;
+    padding: 5%;
+    transform: translate(20%, 116%);
+    width: 100%;
+    color: #212f3c;
+    padding-right: 40%;
+    padding-top: 3%;
+    font-size: 0.5em;
+  }
+  .AnotherMenu {
+    display: flex;
+    top: 10%;
+    background-color: #212f3c;
+    margin: 1% -45%;
+    justify-content: center;
+    padding: 0% 3%;
+    transform: translate(42%, 78%);
+    width: 100%;
+  }
+  .AnotherMenu p {
+    margin: -4% 0%;
+    font-weight: lighter;
+    transform: translate(3px, 122px);
+  }
+  .AnotherMenu ul li p {
+    font-size: 0.5em;
+    margin: 0% -143%;
+    transform: translate(125px, 20px);
+    color: #3c71a3;
+  }
+  .AnotherMenu ul li a {
+    font-size: 0.3em;
+    color: white;
+    text-decoration: none;
+    margin: 0% -57%;
+  }
+  .bubble {
+    background-color: white;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50% 50% 46% 0%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    margin: 15% 0% -32% -85%;
+  }
+
+  .someBlueText {
+    display: flex;
+    top: 10%;
+    background-color: #3c71a3;
+
+    justify-content: center;
+    padding: 9% 1%;
+    transform: translate(-17.5%, 0%);
+    width: 46%;
+    height: 100%;
+  }
+  .blog h1{
+    transform: translate(263px, 217px);
+    color: #212f3c;
+  }
+  
+  .photo {
+    display: inline-flex;
+    transform: translate(4%, 61%);
+  }
+  .photo a {
+    cursor: poin;
+    text-decoration: none;
+    color: #212f3c;
+    padding: 1%;
+  }
+  .photo a img:hover {
+    opacity: 0.5;
+    background-color: #b93535;
+  }
+  .photo a img {
+    padding: 0% 16%;
+    width: 180px;
+  }
+  .photo a .plus {
+   display: none;
+  }
+
+  .photo a p {
+    font-size: 0.5em;
+    transform: translate(66px, 0px);
+  }
+  .photo a p:hover {
+    color: #b93535;
+  }
+  hr{
+    border-top: 1px solid rgb(90, 116, 50);
+  }
+  footer {
+    transform: translate(0%, 90%);
+
+  }
+  footer nav {
+    margin: 0;
+    margin-left: auto;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 0.5em;
+    background-size: cover;
+    
+  }
+  footer nav img {
+    height: 1em;
+    margin: -3% 5%;
+  }
+  footer nav ul {
+    margin: -6%;
+    padding-inline-start: 35%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+  }
+
+  footer nav ul li {
+    display: inline-block;
+  }
+  footer nav ul li a {
+    text-decoration: none;
+    color: #212f3c;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 4px;
+    font-size: 0.7em;
+  }
+  footer nav ul li a:hover {
+    color: red;
+  }
+  .contact {
+    padding: 2%;
+    width: 58%;
+    transform: translate(73%, -44%);
+    color: white;
+    background-color: rgb(73, 73, 73);
+  }
+  .contact ul li {
+    padding: 1%;
+  }
+
+  .contact ul li img {
+    transform: translate(-45px, 32px);
+  }
+  .copyright {
+    padding: 10%;
+    transform: translate(-1%, 55.5%);
+    color: white;
+    background-color: rgb(90, 116, 50);
   }
 }
